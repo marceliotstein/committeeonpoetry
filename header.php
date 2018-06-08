@@ -14,7 +14,7 @@
   <meta name="theme-color" content="#ffffff">
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="/wp/wp-content/themes/blankslate-child/committeeonpoetry.js"></script>
+  <script src="/wp-content/themes/blankslate-child/committeeonpoetry.js"></script>
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -22,7 +22,7 @@
     <header id="header" role="banner">
       <section id="branding">
         <div class="cop-header" id="site-title">
-           <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"><img class="cop-header-image cop-image" alt="The Committee on Poetry, Inc." src="/wp/wp-content/themes/blankslate/images/cop-paper.jpg" /></a>
+           <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_html( get_bloginfo( 'name' ) ); ?>" rel="home"><img class="cop-header-image cop-image" alt="The Committee on Poetry, Inc." src="/wp-content/themes/blankslate/images/cop-paper.jpg" /></a>
         </div>
       </section>
     </header>
