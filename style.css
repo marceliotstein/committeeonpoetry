@@ -44,6 +44,20 @@ h1 {
   padding: 0px 40px 0px 40px;
 }
 
+.cop-header {
+  padding: 20px 40px 30px 40px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .cop-header {
+    padding: 20px 40px 30px 40px;
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .cop-theater-wide {
     display: none;
@@ -57,12 +71,6 @@ h1 {
 .cop-theater-wide {
   background-color: #ffffff;
   text-align: center;
-}
-
-.cop-header {
-  padding: 20px 40px 30px 40px;
-  max-width: 1080px;
-  margin: 0 auto;
 }
 
 .cop-header-image {
