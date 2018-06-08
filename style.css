@@ -1,0 +1,153 @@
+/*
+ Theme Name:	Blankslate Child
+ Author:        Marc Eliot Stein
+ Template:      blankslate
+ Version:	1.0.0
+*/
+
+#container {
+  display: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+#sb_instagram #sbi_load .sbi_load_btn,
+#sb_instagram .sbi_follow_btn a {
+  background: #aaaaaa !important;
+}
+
+a {
+  color: #777777;
+}
+
+p {
+  padding-bottom: 16px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  padding-bottom: 16px;
+  font-weight: 300;
+  font-variant: small-caps;
+}
+
+.cop-theater-wide {
+  display: block;
+  padding: 0px 0px 40px 0px;
+}
+
+.cop-theater-narrow {
+  display: none;
+  padding: 0px 40px 0px 40px;
+}
+
+@media screen and (max-width: 1000px) {
+  .cop-theater-wide {
+    display: none;
+  }
+  .cop-theater-narrow {
+    display: block;
+  }
+}
+
+.cop-theater-narrow, 
+.cop-theater-wide {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.cop-header {
+  padding: 20px 40px 30px 40px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.cop-header-image {
+  width: 100%;
+  text-align: center;
+}
+
+div.history {
+  padding-top: 30px;
+}
+
+.cop-table-wide {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.cop-table-narrow {
+  margin: 0 auto;
+}
+
+.cop-left-wide {
+  text-align: left;
+  padding-top: 60px;
+  margin-right: 70px;
+  vertical-align: top;
+  width: 500px;
+}
+
+.cop-left-narrow  {
+  text-align: center;
+  padding-top: 20px;
+  vertical-align: top;
+  width: 100%;
+}
+
+#sbi_images {
+  padding: 0px !important;
+}
+
+.cop-insta-narrow {
+  max-width: 500px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
+.cop-insta-wide {
+  padding-left: 0px;
+  padding-right: 110px;
+  padding-top: 180px;
+  padding-bottom: 90px;
+}
+
+.cop-deco {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.cop-right-narrow {
+  width: 100%;
+}
+
+.cop-right-wide {
+  width: 500px;
+}
+
+.cop-image {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+.cop-main {
+  text-align: justify; 
+}
+
+.cop-footer {
+  text-align: center;
+}
+
+.cop-left-image-narrow {
+  width: 500px;
+}
+
+.cop-left-image-wide {
+  width: 430px;
+}
+
