@@ -29,7 +29,7 @@ p {
 
 h1 {
   font-size: 2.2rem;
-  padding-bottom: 16px;
+  padding-bottom: 0px;
   font-weight: 300;
   font-variant: small-caps;
 }
@@ -45,16 +45,21 @@ h1 {
 }
 
 .cop-header {
-  padding: 20px 40px 30px 40px;
+  padding: 20px 40px 15px 40px;
   max-width: 1080px;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 600px) {
   .cop-header {
-    padding: 20px 40px 30px 40px;
-    width: 500px;
-    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .cop-theater-narrow {
+    padding: 0px 10px 0px 10px;
+  }
+  .cop-main-narrow p {
+    font-size: 13px;
   }
 }
 
@@ -86,12 +91,17 @@ div.contact {
   padding-top: 30px;
 }
 
-.cop-table-wide {
-  width: 1080px;
+.cop-main {
+  text-align: justify; 
+}
+
+.cop-main-narrow p {
+  text-align: justify; 
   margin: 0 auto;
 }
 
-.cop-table-narrow {
+.cop-table-wide {
+  width: 1080px;
   margin: 0 auto;
 }
 
@@ -101,13 +111,6 @@ div.contact {
   margin-right: 70px;
   vertical-align: top;
   width: 500px;
-}
-
-.cop-left-narrow  {
-  text-align: center;
-  padding-top: 20px;
-  vertical-align: top;
-  width: 100%;
 }
 
 #sbi_images {
@@ -133,10 +136,6 @@ div.contact {
   padding-bottom: 60px;
 }
 
-.cop-right-narrow {
-  width: 100%;
-}
-
 .cop-right-wide {
   width: 500px;
 }
@@ -147,16 +146,12 @@ div.contact {
   border-style: solid;
 }
 
-.cop-main {
-  text-align: justify; 
-}
-
 .cop-footer {
   text-align: center;
 }
 
 .cop-left-image-narrow {
-  width: 500px;
+  width: 100%;
 }
 
 .cop-left-image-wide {
